@@ -48,7 +48,7 @@ struct Books
     int   book_id;
 };
 
-int main()
+int main1()
 {
     //int a = 2;
     //cout << "Hello World! hello c plus plus\n";

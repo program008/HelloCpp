@@ -18,5 +18,19 @@
     <ClCompile Include="HelloCpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inherit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
