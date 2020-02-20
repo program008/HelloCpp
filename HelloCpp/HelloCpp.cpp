@@ -104,6 +104,8 @@ int main1()
     Book1.book_id = 12345;
 
     // Book2 详述
+
+
     strcpy_s(Book2.title, "CSS 教程");
     strcpy_s(Book2.author, "Runoob");
     strcpy_s(Book2.subject, "前端技术");
