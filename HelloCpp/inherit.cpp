@@ -5,6 +5,7 @@ c++继承
 数据抽象是一种仅向用户暴露接口而把具体的实现细节隐藏起来的机制。
 */
 #include<iostream>
+#include "reload.cpp"
 using namespace std;
 //基类
 class Shape
@@ -93,30 +94,40 @@ public:
 		cout << "字符串为: " << c << endl;
 	}
 };
-int main()
-{
-	Rectangle Rect;
-	Rect.setWidth(3);
-	Rect.setHeight(4);
-
-	//计算面积
-	cout << "Rect's area is :" << Rect.getArea() << endl;
-	//计算花费
-	cout << "total cost is :$" << Rect.getCost(Rect.getArea()) << endl;
-
-	//动态
-	Shape* shape;
-	Rectangle rec(10, 7);
-	Triangle  tri(10, 5);
-
-	// 存储矩形的地址
-	shape = &rec;
-	// 调用矩形的求面积函数 area
-	shape->area();
-
-	// 存储三角形的地址
-	shape = &tri;
-	// 调用三角形的求面积函数 area
-	shape->area();
-	return 0;
-}
+//int main()
+//{
+//	Rectangle Rect;
+//	Rect.setWidth(3);
+//	Rect.setHeight(4);
+//
+//	//计算面积
+//	cout << "Rect's area is :" << Rect.getArea() << endl;
+//	//计算花费
+//	cout << "total cost is :$" << Rect.getCost(Rect.getArea()) << endl;
+//
+//	//动态
+//	Shape* shape;
+//	Rectangle rec(10, 7);
+//	Triangle  tri(10, 5);
+//
+//	// 存储矩形的地址
+//	shape = &rec;
+//	// 调用矩形的求面积函数 area
+//	shape->area();
+//
+//	// 存储三角形的地址
+//	shape = &tri;
+//	// 调用三角形的求面积函数 area
+//	shape->area();
+//
+//	Box Box1;
+//	Box1.setLength(6.0);
+//	Box1.setBreadth(7.0);
+//	Box1.setHeight(5.0);
+//	double volume = 0.0;
+//
+//	// Box1 的体积
+//	volume = Box1.getVolume();
+//	cout << "Volume of Box1 : " << volume << endl;
+//	return 0;
+//}

@@ -148,9 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Box.cpp" />
+    <ClCompile Include="exceptionhandle.cpp" />
     <ClCompile Include="HelloCpp.cpp" />
     <ClCompile Include="inherit.cpp" />
+    <ClCompile Include="iohandle.cpp" />
     <ClCompile Include="reload.cpp" />
+    <ClCompile Include="template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Box.h" />
